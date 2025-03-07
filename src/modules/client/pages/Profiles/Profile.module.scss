@@ -1,0 +1,71 @@
+
+
+
+.sider {
+    background-color: $yellow_color;
+    
+    box-shadow: $box_shadow;
+    border-radius: 9px;
+    &__inner {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+    }
+
+    &__avatar {
+        width: 150px;
+        height: 150px;
+    }
+}
+.profiles {
+    padding: 20px 0;
+    background-color: white;
+}
+
+.btn__edit {
+    margin-top: 10px;
+    color: $primary_color;
+    border: solid $primary_color 1px;
+}
+
+.btn__password {
+    color: $primary_color;
+    border: solid $primary_color 1px;
+}
+
+.content {
+    background-color: $yellow_color;
+    padding: 15px;
+    box-shadow: $box_shadow;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+
+.profiles__desc {
+    width: 200px;
+}
+
+.favorite__icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: $primary_color;
+}
+
+.btn__submit__update {
+    width: 100%;
+    color: $primary_color;
+}
+
+.update__title {
+    text-align: center;
+}
+
+.upload__avatar {
+    position: absolute;
+    top: 145px;
+    font-size: 30px;
+}

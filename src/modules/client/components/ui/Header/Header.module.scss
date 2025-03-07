@@ -1,0 +1,73 @@
+
+
+.header {
+    
+    position: sticky;
+    top: 0;
+    padding: 0 !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    &__top {
+        background-color: $secondary_color;
+        min-width:  100%;
+        color: white;
+        font-size: 15px;
+        font-weight: 500px;
+        
+    }
+
+    &__contact {
+        font-size: 13.5px;
+        ul {
+            display: flex;
+            gap: 5px;
+
+            li {
+                padding: 2px;
+            }
+
+            li:nth-child(-n + 2) {
+                border-right: solid 1px;
+            }
+        }
+    }
+
+    &__main {
+        padding: 10px 0;
+        background-color: $secondary_light_color;
+    }
+    &__logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        &-img {
+            max-width: 70px;
+        }
+
+        &-title {
+            font-size: 25px;
+        }
+    }
+
+    &__menu {
+        ul {
+            display: flex;
+        }
+
+        li {
+            margin: 0 13px;
+        }
+    }
+
+    .suggestions {
+        width: 340px;
+    }
+    .suggestions__list {
+        position: fixed;
+    }
+    
+    .cart__price {
+        color: $primary_color !important;
+    }
+}
+

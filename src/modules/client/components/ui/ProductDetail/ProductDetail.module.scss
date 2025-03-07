@@ -1,0 +1,35 @@
+.product__detail {
+    padding: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+
+.price {
+    color: $primary_color;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.old__price {
+    text-decoration: line-through;
+}
+
+.quantity {
+    margin-bottom: 15px
+}
+
+.product__thumbnail {
+    border-radius: 10px;
+}
+
+.product__image {
+    position: relative;
+    width: 50%;
+}
+
+.alert__error {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}

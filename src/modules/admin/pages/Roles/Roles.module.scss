@@ -1,0 +1,23 @@
+
+.actions {
+    margin-bottom: 10px;
+}
+
+.create__title {
+    text-align: center;
+}
+
+.btn__create__submit {
+    width: 100%;
+    color: $primary_color;
+    border: solid 1px;
+}
+
+.permissions__checkbox {
+    margin-right: 10px !important;
+}
+
+.list__role {
+    overflow: auto;
+    height: 250px;
+}

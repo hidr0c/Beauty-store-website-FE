@@ -1,0 +1,26 @@
+
+
+.actions {
+    margin-top: 30px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input__range__price {
+        width: 100px;
+    }
+
+    &__inner {
+
+    }
+
+    .select__sort {
+        width: 200px;
+    }
+
+    .select__limit {
+        width: 100px;
+    }
+}

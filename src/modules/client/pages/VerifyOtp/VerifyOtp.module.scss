@@ -1,0 +1,26 @@
+
+.verify {
+    background-color: $secondary_light_color;
+    min-height: 100vh;
+
+    &__content {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    &__inner {
+        background-color: $yellow_color;
+        padding: 60px;
+        width: 450px;
+        border-radius: 8px;
+    }
+
+    &__btn {
+        width: 100%;
+        color: $primary_color;
+        border: solid 1px;
+    }
+}

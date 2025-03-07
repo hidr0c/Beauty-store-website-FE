@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+}
+
+.btn__upload {
+    padding: 40px;
+    color: $primary_color;
+    border: dashed $primary_color;
+    border-radius: 7px;
+    font-size: 30px;
+    background-color: $yellow_color;
+}
+
+.btn__submit {
+    width: 100%;
+    color: $primary_color;
+}
+
+.tool {
+    margin: 10px 0;
+}
+
+.img__images {
+    border-radius: 4px;
+}

@@ -1,0 +1,35 @@
+@use './variable' as *;
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.active {
+    color: $blue_color;
+    font-weight: bold;
+}
+
+body {
+    font-family: $primary_font_family;
+    background-color: $yellow_color;
+}
+
+a {
+    text-decoration: none;
+    color: $color_font;
+}
+
+ul {
+    list-style: none;
+}
+
+.d-none {
+    display: none;
+}
+
+//Change color collapsed
+.ant-layout-sider-trigger {
+    background-color: $secondary_color !important;
+}

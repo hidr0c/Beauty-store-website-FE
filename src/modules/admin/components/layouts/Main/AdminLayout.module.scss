@@ -1,0 +1,51 @@
+
+
+.layout {
+    
+}
+
+.sider {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 3px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+
+
+    &__logo {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 0px;
+        padding: 10px;
+        &-img {
+            width: 80px;
+        }
+    }
+
+    &__menu {
+        margin: 3px 0;
+    }
+
+    &__content {
+        margin-top: 10px;
+    
+    }
+
+    &__space {
+        background-color: $color_font;
+        width: 70%;
+        margin: 18px auto;
+        height: 0.5px;
+    }
+    
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}

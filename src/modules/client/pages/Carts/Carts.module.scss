@@ -1,0 +1,35 @@
+
+
+.carts {
+    padding: 50px 0px;
+
+    &__items {
+        width: 100%;
+    }
+
+    &__img {
+        border-radius: 10px;
+        border: solid 1px;
+    }
+
+    .btn__checkout {
+        color: $primary_color;
+        border: solid $primary_color 1px;
+    }
+
+    &__filter {
+
+        &--price {
+            padding: 10px;
+        }
+    }
+
+    &__actions {
+        margin-bottom: 10px;
+    }
+}
+
+
+.title__total {
+    color: $secondary_color !important;
+}

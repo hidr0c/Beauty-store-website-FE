@@ -16,12 +16,13 @@ const CustomFooter = () => {
       <div className="container">
         <Row gutter={[16, 16]}>
             <Col xs={24} sm={12} md={6}>
-            <h3>CÔNG TY TNHH KYO PACIFIC</h3>
-            <p><strong>MST:</strong> 0110522922 do sở KHĐT TP Hà Nội cấp</p>
-            <p><strong>Địa chỉ:</strong> Số 24 ngõ 165 Phố Dương Quảng Hàm, P.Quan Hoa, Q. Cầu Giấy, TP. Hà Nội</p>
-            <p><strong>E-mail:</strong> kyoauthentic@gmail.com</p>
-            <p><strong>Điện thoại:</strong> 024.66.737.999</p>
-            <p><strong>Hotline:</strong> 0975.436.989 / 0936.326.989</p>
+            <h3>CÔNG TY TNHH PXT</h3>
+            <p><strong>MST:</strong> 0312345678 do Sở KHĐT TP Hồ Chí Minh cấp</p>
+            <p><strong>Địa chỉ:</strong> Số 15, Đường Nguyễn Văn Cừ, Phường 4, Quận 5, TP. Hồ Chí Minh</p>
+            <p><strong>E-mail:</strong> contact.abc@gmail.com</p>
+            <p><strong>Điện thoại:</strong> 028.62.345.678</p>
+            <p><strong>Hotline:</strong> 0901.234.567 / 0987.654.321</p>
+
             </Col>
 
             <Col xs={24} sm={12} md={6}>

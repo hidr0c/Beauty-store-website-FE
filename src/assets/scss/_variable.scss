@@ -1,12 +1,14 @@
-//COLOR 
-$primary_color: #ee3880;
-$secondary_color: #fd95ab;
-$secondary_light_color: #FFE4E1;
-$font_nav_color: #545454;
-$color_font: #000000;
-$blue_color: #6BADCE;
-$yellow_color: #FEFEFE;
-$box_shadow: rgba(202, 114, 167, 0.587) 0px 2px 8px 3px;
+// COLOR
+$primary_color: #BFA06B; // a refined goldish tone
+$secondary_color: #8B7D80; // a subtle, sophisticated gray-purple
+$secondary_light_color: #F8F7F4; // an elegant off-white
+$color_font: #333333; // dark gray for better contrast
+$blue_color: #2C3E50; // a deep navy blue for accents
+$yellow_color: #FFFFFF; // clean white background
+$box_shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 3px;
 
-//FONT 
+// FONT
 $primary_font_family: "Roboto Condensed", sans-serif;
+
+// NAVIGATION FONT COLOR
+$font_nav_color: #444444; // a sophisticated dark shade for navigation textsy
